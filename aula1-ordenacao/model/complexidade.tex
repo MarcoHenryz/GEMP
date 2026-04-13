@@ -1,0 +1,11 @@
+\section{Complexidade}
+
+Ambos os códigos inicias do Selection Sort e do BubbleSort possuem complexidade de $O(n^2)$
+
+Para a OBI e demais competições do gênero, devemos considerar, por boa prática, que o computador faz cerca de 1 milhão de operações por segundo e que o tempo limite de execução é  1 segundo. Em outras palavras bem mais simples (e até formalmente erradas mas que facilitam a compreensão), nosso código deve ter complexidade de, no máximo, O(106
+) . Se o valor de n, for menor que 1000, então nossos algoritmos que rodam em O(n²) irão se encaixar n0 limite. Mas, e se o valor de n for até 105
+? Precisaremos de um algoritmo mais eficiente.
+
+Outro detalhe comum em problemas de ordenação é o desempate. Image por exemplo um problema que lhe dá $n$, $1 <= n <=10^5$, o número de alunos que participaram de uma prova e
+mas próximas n linhas lhe dá, em cada linha, o nome do aluno, e no máximo 20 caracteres, um espaço em branco e a sua nota em uma prova, que é um 
+número decimal. A saída que o programa deve gerar terá n linhas, em cada uma o nome de um aluno, ordenados de cima para baio em ordem decrescente de nota, o programa deve imprimir os nomes dos alunos empatados em ordem alfabética.
