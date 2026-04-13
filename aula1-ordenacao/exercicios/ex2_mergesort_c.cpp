@@ -1,3 +1,7 @@
+/*
+Exercicio no quadro:
+*/
+
 #include <bits/stdc++.h>
 
 #define MAXN 1100

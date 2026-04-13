@@ -1,3 +1,10 @@
+/*
+Enunciado: Dados dois vetores ordenados, faça um algoritmo que faça o merge em
+um vetor maior ordenado Premissas: Numero maximo de elementos no vetor 100100
+Entrada: tamanho vetor1, tamanho vetor2, elementos dos vetores
+Saida: vetorzao ordenado
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
